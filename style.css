@@ -1,0 +1,428 @@
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&family=PT+Serif:ital,wght@1,700&family=Pacifico&family=Quintessential&family=Source+Serif+Pro:wght@600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+header{
+    background-color: black;
+    color: white;
+}
+nav{
+    height: 71px;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    margin: 0 20px;
+    display: flex;
+    align-items: center;
+}
+.name{
+    margin: 8px;
+}
+.name p{
+    font-size: 32px;
+}
+.name p b{
+    color: yellow;
+}
+.name sub{
+    font-family: 'Quintessential', cursive;
+    color: aqua;
+}
+nav ul{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    text-transform: uppercase;
+    margin: 10px;
+}
+nav ul li{
+    list-style: none;
+    margin: 0 20px;
+    padding: 10px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;   
+}
+nav ul li:hover{
+    background-color: green;
+    font-size: large;
+    border-radius: 5px;
+}
+.line{
+    background-color: rgb(116, 192, 17);
+    height: 1px;
+}
+.container{
+    min-height: calc(100vh - 245px - 71px);
+}
+.slider{
+    overflow: hidden;
+}
+.slider figure{
+    position: relative;
+    width: 500%;
+    margin: 0;
+    left: 0;
+    animation: slider 20s ease-in 2s infinite;
+}
+.slider figure img{
+    width: 20%;
+    float: left;
+}
+@keyframes slider{
+    0%{
+        left: 0;
+    }
+    15%{
+        left: -100%;
+    }
+    25%{
+        left: -100%;
+    }
+    40%{
+        left: -200%;
+    }
+    55%{
+        left: -200%;
+    }
+    70%{
+        left:-100%;
+    }
+    85%{
+        left: -100%;
+    }
+    95%{
+        left: 0;
+    }
+    100%{
+        left: 0;
+    }
+}
+.line1{
+    background-color: rgb(116, 192, 17);
+    height: 1px;
+    overflow: hidden;
+}
+.info{
+    background-image: url("wp5885787-gym-hd-desktop-wallpapers.jpg");
+    background-size: 1262.67px 602px;
+    background-repeat: no-repeat;
+}
+.mainform{
+    border: 5px solid green;
+    color: white;
+    width: 33%;
+    margin: 59px 153px;
+    padding: 14px;
+    height: 340px;
+    border-radius: 84px;
+}
+.mainform{
+    text-align: center;
+}
+.mainform:hover{
+    transform: scale(1.05);
+}
+.formgrp:hover{
+    transform: scale(1.05);
+}
+.heading{
+    color: white;
+    position: relative;
+    top: 48px;
+    left: 185px;
+    font-family:'Pacifico', cursive;
+}
+.formgrp input{
+    text-align: center;
+    color: aqua;
+    background-color: transparent;
+    display: block;
+    width: 316px;
+    padding: 6px;
+    margin: 6px auto;
+    border: 2px solid white;
+    border-radius: 19px;
+    height: 28px;
+    font-size: large;
+    font-weight: bold;
+}
+.btn{
+    position: relative;
+    bottom: 45px;
+    left: 323px;
+    height: 49px;
+    width: 115px;
+    background-color: transparent;
+    color: aqua;
+    border: 5px solid green;
+    border-radius: 32px;
+    font-size: large;
+}
+.btn:hover{
+    background-color: green;
+    color: rgb(235, 186, 27);
+    font-size: larger;
+    font-weight: bold;
+}
+.line2{
+    background-color: rgb(116, 192, 17);
+    height: 1px;
+    overflow: hidden;
+}
+
+.headbox{
+    background-image: url("1244688.jpg");
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+}
+.mainbox{
+    height: 500px;
+    width: 659px;
+    position: relative;
+    top: 30px;
+    left: 60px;
+}
+.navbox{
+    width: 659px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.row2{
+    width: 659px;
+    height: 321px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: initial;
+}
+.trainerbox{
+    border: 2px solid green;
+    height: 287px;
+    width: 191px;
+    margin: 0 35px;
+    border-radius: 49px;
+    background-color: black;
+}
+.trainerbox:hover{
+    box-shadow:5px 5px 5px 5px grey; 
+    transform: scale(1.01);
+}
+.pic{
+    display: flex;
+    justify-content: center;
+    margin: 9px;
+}
+.pic img{
+    border: 2px solid green;
+    border-radius: 50px;
+    padding: 4px;
+}
+.des{
+    display: block;
+    text-align: center;
+    width: 199px;
+    color: white;
+    font-size: 18px;
+}
+.des li{
+    margin: 5px 0;
+    list-style: none;
+}
+.des li::before{
+    display: inline-block;
+    content: "";
+    background-color: green;
+    height: 7px;
+    width: 7px;
+    border-radius: 50%;
+    margin-right: 5px;
+    margin-bottom: 2px;   
+}
+.des img{
+    width: 102px;
+    height: 17px;
+}
+.btn1{
+    display: flex;
+    justify-content: center;
+    margin: 11px 0;
+    height: 36px;
+}
+.subbtn{
+    background-color: black;
+    color: white;
+    width: 103px;
+    border: 2px solid green;
+    border-radius: 18px;
+}
+.subbtn:hover{
+    font-weight: bolder;
+    background-color: green;
+    color: rgb(255, 255, 0);
+    border: 2px solid whitesmoke;
+}
+.dchart{
+    background-image: url("A whole plant-based diet emphasizes on food sources that include all..jpg");
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+}
+.headingbody{
+    position: relative;
+    top: 111px;
+}
+.headingbody h1{
+    color:whitesmoke;
+    text-align: center;
+}
+.dform{
+    margin: 125px;
+}
+::placeholder{
+    color: orange;
+}
+.element input{
+    background-color: transparent;
+    display: block;
+    width: 316px;
+    margin: 6px auto;
+    color: orange;
+    text-align: center;
+    border: 2px solid greenyellow;
+    height: 38px;
+    border-radius: 8px;
+}
+.element1{
+    text-align: center;
+}
+.element1 input{
+    text-align: center;
+    background-color: transparent;
+    display: inline;
+    width: 154px;
+    margin: 6px auto;
+    color: orange;
+    border: 2px solid greenyellow;
+    height: 38px;
+    border-radius: 8px;
+}
+#sex{
+    background-color: transparent;
+    display: block;
+    width: 319px;
+    margin: 6px auto;
+    color: orange;
+    text-align: center;
+    border: 2px solid greenyellow;
+    height: 42px;
+    border-radius: 8px;
+}
+.btn2{
+    text-align: center;
+    margin: 6px 0;
+}
+.btn2 button{
+    height: 26px;
+    width: 318px;
+    background-color: transparent;
+    color: orange;
+    border: 2px solid greenyellow;
+    font-size: 14px;
+    border-radius: 8px;
+}
+.btn2 button:hover{
+    transform: scale(1.02);
+    background-color: brown;
+    color: white;
+    font-size: medium;
+    font-weight: bold;
+    border: 2px solid white;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    width: 279px;
+}
+.gps{
+    margin-left: 57px;
+    margin-top: 12px;
+    margin-bottom: 20px;
+}
+.gps img{
+    display: inline;
+    position: relative;
+    top: 7px;
+}
+.gps p{
+    display: inline;
+}
+.phn{
+    margin-left:57px ;
+    margin-bottom: 20px;
+}
+.phn img{
+    display: inline;
+    position: relative;
+    top: 7px;
+}
+.phn p{
+    display: inline;
+}
+.email{
+    margin-left: 57px;
+}
+.email img{
+    display: inline;
+}
+.email p{
+    display: inline;
+}
+.branch ul{
+    list-style: square;
+}
+.right{
+    display: flex;
+    width: 224px;
+    height: 24px;
+    justify-content: space-evenly;
+    position: relative;
+    top: 81px;
+    right: 57px;
+}
+.branch h3{
+    font-size: x-large;
+}
+.branch ul{
+    list-style: square inside;
+}
+.branch{
+    margin-top: 12px;
+}
+.branch ul li{
+    margin-bottom: 10px;
+}
+.copy{
+    display: flex;
+    align-items: center;
+}
+footer{
+    background-color: black;
+    height: 188px;
+    color: white;
+    font-family: 'Source Serif Pro', serif;
+    display: flex;
+    justify-content: space-between;
+}
+
+
