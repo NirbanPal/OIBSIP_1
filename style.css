@@ -111,7 +111,7 @@ nav ul li:hover{
 }
 .info{
     background-image: url("wp5885787-gym-hd-desktop-wallpapers.jpg");
-    background-size: 1262.67px 602px;
+    background-size: cover;
     background-repeat: no-repeat;
 }
 .mainform{
